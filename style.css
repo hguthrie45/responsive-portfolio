@@ -28,7 +28,7 @@ nav {
     right: 0;
     padding: 40px;
     margin: 0;
-    text-align: center;
+    text-align: center;background-color: grey;
 }
 
 .about {
@@ -85,4 +85,14 @@ body {
     margin-top: 115px;
     color: #777777;
     background-color: blue
+}
+
+@media screen and (max-width: 640px){
+    img {width: 300px;height:auto;align-self: center;clear:both;}
+    content {margin-top: 10%;width:350px;}
+    nav{margin-right: 15%;margin-top: 15%}
+    body {width:325px;}
+    p {width:375px;}
+
+    
 }

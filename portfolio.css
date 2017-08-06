@@ -86,3 +86,10 @@ body {
     color: #777777;
     background-color: #ffffff
 }
+
+
+@media  screen and (max-width: 640px){
+    .connect {margin-right: 32%; margin-bottom: 15%}
+    
+}
+

@@ -57,7 +57,7 @@ width: 100%; background color:grey;margin-top: 10%}
 
 
 aside {
-    width: 230px;
+    width: 200px;
     height: 175px;
     background-color: #ffffff;
     float: right;
@@ -76,4 +76,47 @@ footer {
     background-color: red;
     width: 100%;
     text-align: center;
-    background-color: #666666
+    background-color: #666666}
+
+
+    @media screen and (max-width:768px){
+    .theform {max-width: 100%;margin-top: 15%}
+    .nav {margin-right: 3%; max-width: 200px}
+    .name {margin-left: -5%}
+
+        }
+
+    @media screen and (max-width: 640px){
+        .name {width: 100%}
+        nav {margin-top: 20%;position: relative;}
+        .theform {margin-top: -5%;width: 90%}
+        aside {margin-right: 30%; margin-bottom: 20%;height:auto;}
+
+
+
+
+    } 
+
+        
+    
+
+
+
+
+    
+
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
